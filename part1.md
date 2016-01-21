@@ -1,7 +1,7 @@
 # Project 1, Part 1
 
-* Assigned: 9/14
-* Due: 9/28 beginning of class, hard copy
+* Assigned: 1/21
+* Due: 2/4 beginning of class, hard copy
 * worth 25% of overall Project 1 grade
 
 In part 1 of the project, you will propose an interesting web application of your choosing,
