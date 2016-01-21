@@ -16,16 +16,7 @@ This document is pretty long, but please read it all, it should answer most of y
 * [Project overview: YOU SHOULD READ](http://github.com/w4111/proj1)
 
 
-[TA Meeting Signup Link](https://www.google.com/calendar/selfsched?sstoken=UUh6Ulp6SC1RUjd3fGRlZmF1bHR8MTRhZDBmYzBlYjQzNmRjNTExZGViN2JjMjZjNjFlZjk)
-
-* each team should sign up for a slot to meet with the TA
-
-
-# Grade statistics
-
-![Histogram](https://raw.githubusercontent.com/w4111/syllabus/master/docs/p1p1_histogram.png)
-
-![Cumulative Distribution](https://raw.githubusercontent.com/w4111/syllabus/master/docs/p1p1_cdf.png)
+* each team should sign up for a slot to meet with the TA (Meeting Signup Link is pending)
 
 
 # Overview 
@@ -68,19 +59,6 @@ You will ultimately submit the following as hard-copies:
       real world as possible in your E/R diagram.
  
 
-1. **Required** Your choice for Part 3 of the project: 
-    * Specify whether you will follow the Web Front-End Option (Option 3.a) or 
-    the Expanded-Design Option (Option 3.b) for Part 3 of the project 
-    (see [Project overview](http://www.github.com/w4111/proj1/))
-      * **Option 3.a**: simply say so with your Part 1 submission, no additional info is needed. 
-      * **Option 3.b**: or if you are not sure at this point, then state this in your Part 1 submission.
-      Specify how you will expand your design in Part 3. The expansion should augment the project --
-      by # entity sets, relationship sets, overall "complexity" -- by ~50%.
-      The expansion is expected to be a novel and significant addition to your database.
-      (See below for more guidelines.)
-    * It's OK to switch from Option 3.b to Option 3.a later in the project.  
-    The other way around will not be allowed, and no exceptions will be made..
- 
 
 <a name="contingency"></a>
 1. **Optional but strongly recommended** Contingency plan for two-person teams: 
