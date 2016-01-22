@@ -10,24 +10,22 @@ schema of the database, as setup for part 2 of the project.
 
 This document is pretty long, but please read it all, it should answer most of your questions.
 
-**Important note**: If you observe Jewish or other religious holidays that overlap with this part of the project, please email the instructor to arrange for alternative deadlines.
+**Important note**: If you observe holidays that overlap with this part of the project, please email the instructor to arrange for alternative deadlines.
 
 * [FAQs](#frequently-asked-questions)
-* [Project overview: YOU SHOULD READ](http://github.com/w4111/proj1)
-
-
-* each team should sign up for a slot to meet with the TA (Meeting Signup Link is pending)
+* [Project overview: YOU SHOULD READ](http://github.com/w4111/project1)
+* [IA Meeting Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UU43X2NkLTFneDNifGRlZmF1bHR8NmZmOTM3Mjc4ZmI4OTgzODFkMzcwZjM3YTBhOTA0YmE) Each team should sign up to discuss their project with an IA (we want to make sure the scope is appropriate).
 
 
 # Overview 
 
 This assignment consists of multiple steps.  At a high level, you will
 
-1. Pick a team mate -- go make new friends!
+1. Pick a team mate -- go make new friends! (Or post on Piazza)
 
 1. Pick an application and write a short proposal about it
 
-1. Meet with a course staff member to go over the proposal and get feedback
+1. Meet with a course staff member to go over the proposal and get feedback [Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UU43X2NkLTFneDNifGRlZmF1bHR8NmZmOTM3Mjc4ZmI4OTgzODFkMzcwZjM3YTBhOTA0YmE)
 
 1. Revise your proposal based on the feedback, create the ER-diagram and schema of the database.
 
@@ -174,13 +172,13 @@ Your grade will be split as follows:
 <a name="faq"></a>
 
 * I have an idea that requires that I work alone. Can I?
-    * No.  Please modify your project idea so that it becomes appropriate for a two-person team.
+    * No, sorry. Please modify your project idea so that it becomes appropriate for a two-person team. Yes, being forced to work with others is sometimes painful, but I believe that some of the most valuable lessons you learn in University are not the course content.
 
-* Can my team have 3 (or 4, or 12) students?
-    * No. Your team has to have exactly two students.
+* Can we have a team of 3, 4, or 12 students?
+    * No, sorry. For fairness and to make it possible for us to grade them, the projects need to have similar size and scope.
 
 * Can I use my favorite DBMS instead of PostgreSQL?
-    * No, sorry.  We would like to be more flexible but don't have the staff to handle several diverse systems and platforms. 
+    * No, sorry.  We would like to be more flexible but don't have the staff to handle several diverse systems and platforms.
 
-* Can I use Ada (or something that's not Python) for Option 3.a?
-    * Please see the answer to the previous question.
+* Can I use Ada (or something that's not Python) for Option 3?
+    * No, sorry. Please see the answer to the previous question.
