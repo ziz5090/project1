@@ -18,86 +18,74 @@ If you can get real data to populate your database, it does help a bit, but agai
 
 # Summary of Deadlines
 
-* **9/16**: Find team-mate in class or on Piazza to find one. (no deliverable, but last lecture to find a partner in class!)
-* **9/21-25**: Meet with TA or instructor to discuss your application and design (details below).  This is a required meeting.
-* **9/28**: Submit Part 1 
-* **10/19**: Submit Part 2
-* **11/16**: Submit Part 3
+* **1/21**: Find team-mate in class or on Piazza to find one.
+* **1/25-29**: Meet with course staff to discuss your application and design.  This is a required meeting.
+* **2/2**: Submit Part 1
+* **2/25**: Submit Part 2
+* **3/29**: Submit Part 3
 
-<!--
-* **9/28**: Submit a hard-copy with your final project description (details below).
--->
-
-Note: you can only use late days for the project description submisson, not for finding a teammate nor for meeting with the TA/instructor.Important note: Please check the Project Lateness Policy carefully. 
+Note: you can only use late days for the project description submisson, not for finding a teammate nor for meeting with the staff. Please read the Project Lateness Policy carefully. 
 
 
 # Getting Help
 
-We _strongly suggest_ you use the following heuristic when you encounter bugs.  It's pretty much the
-heuristic you would take in any software job, so it's good practicie.
+We _strongly suggest_ you use the following approach when you encounter bugs.  This is basically what
+professional software engineers and data scientists do:
 
-1. Use Google or StackOverflow by searching for the error message 
-1. Look for previous answers on Piazza 
-1. Ask on Piazza include:
+1. Use Google or StackOverflow by searching for the error message (the Internet is your friend!)
+1. Look for previous answers on Piazza
+1. Ask on Piazza including:
   * what you're trying to do
   * describe the approach you took
   * the error message
   * what solutions you've tried
 1. Ask the staff
-  
-        
-Remember: the internet is your friend! 
 
 
 # Teams
 
 You will carry out this project in teams of two. If you can't find a team-mate, please follow these steps:
 
-* Post a message in the class discussion board on CourseWorks asking for a team mate - the best way.
-* Send email to Pranay right away (and definitely before Wed Jan 25 at 5 p.m.) asking him to pair you up with another student without a team-mate. 
-  Pranay will do his best to find you a team-mate.
+* Post a message on Piazza asking for a team mate - the best way.
+* Send email to Jincheng right away (and definitely before Wed Jan 27th at 5 PM) asking him to pair you up with another student without a team-mate.
 * You do not need to notify us of your team composition. 
-  Instead, when you submit the first part of your project you should indicate in your submission your team composition.
-* See [part 1](http://www.github.com/w4111/proj1part1#contingency) for a contingency plan to protect yourself in case your team mate drops the class.
+  Instead, when you submit the first part of your project, please write the name and UNI of both members.
+* See Part 1 for a contingency plan to protect yourself in case your teammate drops the class.
+
 
 ### Important notes:
 
 * If you decide to drop the class, or are even remotely considering doing so, please be considerate and notify your team-mate immediately.
-* On a related note, do not wait until the day before the deadline to start working on the project, just to realize then that your team-mate has dropped the class or moved to another planet. It is your responsibility to start working on the project and spot any problems with your team-mate early on.
+* Do not wait until the day before the deadline to start working on the project, only to realize that your team-mate has dropped the class or moved to another planet. It is your responsibility to start working on the project and spot any problems early.
 * Please check the Collaboration Policy web page for important information of what kinds of collaboration are allowed for projects.
 
 
+# Programming Environment: Python on Microsoft Azure
 
-# Setup and Technologies
-
-We ask you to use some cloud-based technologies for the projects, and many of the instructions are written
-assuming their use.  If you are strongly opposed to using the technology, please let us know and we can
-try to come up with an alternative, however we *strongly* prefer the use of the following.
-
-### Microsoft Azure machine setup
+We ask you to use cloud-based technologies for the projects, and the instructions are written
+assuming their use. You can work on the project using your own machine, or some other environment.
+However, the course staff can only support the enviroment we are providing.
 
 The staff has worked to setup Microsoft Azure credits for you, so you get experience working
-with cloud infrastructure that many modern companies such as Pixar and Apple iCloud.
-
-[Click here and follow the instructions for setup (HW0)](https://github.com/w4111/hw0)
+with the same cloud infrastructure that real companies (e.g. [Apple iCloud](http://www.theregister.co.uk/2011/09/02/icloud_runs_on_microsoft_azure_and_amazon/)). [HW0](https://github.com/w4111/hw0) describes how to set this up. We will provide the credits after the proposals are submitted.
 
 
 ### GitHub
 
 One drawback of using a cloud computing platform is that it is difficult to open GUI text editors
-such as notepad or sublime to write your code.  We recommend setting up a version control system, 
-such as git on [GitHub](http://www.github.com), so that your team can share your code together.  
+such as Sublime Text to write your code.  We recommend setting up a version control system, 
+such as git on [GitHub](http://www.github.com), so your team can share code.  
 This way, you can code on your desktop, commit your changes, and pull the updated changes on your 
 cloud virtual machine.
 
 ### Flask Python Webserver (For part 3)
 
 We will use the [Flask Python webserver](http://flask.pocoo.org/) in this course.
-It is a lightweight webserver that requires a minimal amount of understanding of how the webserver framework is implemented (as compared to other frameworks).
+It is a lightweight webserver that requires a minimal amount of understanding of how the webserver framework is implemented.
 In the class github website, we have included a dummy webserver with an example of how to connect to the database.
 
 
-To use it, go to your EC2 machine and first install the webserver package:
+To use it, go to your Azure machine and first install the webserver package (ideally in a "virtualenv"):
 
         pip install Flask
 
@@ -112,7 +100,6 @@ We strongly recommend reading the following documentations:
 * [General Flask Documentation](http://flask.pocoo.org/)
 * [Jinja Templates](http://jinja.pocoo.org/docs/dev/templates/): this makes it easy to send data (e.g., arrays, dictionaries) 
   to your HTML code and dynamically render them.
-
 
 
 ### Computer Accounts
