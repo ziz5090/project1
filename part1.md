@@ -14,7 +14,7 @@ These directions are long, but please read them carefully before you start.
 
 * [FAQs](#frequently-asked-questions)
 * [Project overview: Read this carefully before starting](http://github.com/w4111/project1)
-* [IA Meeting Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UU43X2NkLTFneDNifGRlZmF1bHR8NmZmOTM3Mjc4ZmI4OTgzODFkMzcwZjM3YTBhOTA0YmE): Each team should sign up to discuss their project with an IA (we want to make sure the scope is appropriate). Please make sure you have completed Step 1 below before your meeting.
+* [IA Meeting Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UU43X2NkLTFneDNifGRlZmF1bHR8NmZmOTM3Mjc4ZmI4OTgzODFkMzcwZjM3YTBhOTA0YmE): Meet as a team to discuss the project with an IA. We want to make sure the scope is appropriate. Please make sure you have completed Step 1 below before your meeting.
 
 
 # Overview 
@@ -25,7 +25,7 @@ This assignment consists of multiple steps.  At a high level, you will
 
 1. Select an application and write a short proposal.
 
-1. Meet with a course staff member to get feedback on your proposal: [Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UU43X2NkLTFneDNifGRlZmF1bHR8NmZmOTM3Mjc4ZmI4OTgzODFkMzcwZjM3YTBhOTA0YmE)
+1. Meet with a course staff member as a team to get feedback on your proposal: [Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UU43X2NkLTFneDNifGRlZmF1bHR8NmZmOTM3Mjc4ZmI4OTgzODFkMzcwZjM3YTBhOTA0YmE)
 
 1. Revise your proposal, and create the entity-relationship diagram and schema for the database.
 
