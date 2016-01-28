@@ -113,11 +113,11 @@ You will ultimately submit the following as hard-copies:
     
 1. Map your E/R diagram into a relational schema in SQL, preserving the constraints.
 
-1. Submit a hard copy of the following on the due date
-    a. revised one-paragraph description of the application
-    b. Entity-relationship diagram
-    c. resulting SQL schema
-    d. revised contingency plan (optional)
+1. Submit a hard copy of the following on the due date:
+    1. Revised one-paragraph description of the application
+    2. Entity-relationship diagram
+    3. Resulting SQL schema
+    4. Revised contingency plan (optional)
  
 1. Keep a copy of all these materials for yourselves, since you will need them for Parts 2 and 3 of the project.
 
