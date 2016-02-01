@@ -20,7 +20,7 @@ If you can get real data to populate your database, it does help a bit, but agai
 
 * **1/21**: Find team-mate in class or on Piazza to find one.
 * **1/25-29**: Meet with course staff to discuss your application and design.  This is a required meeting.
-* **2/2**: Submit Part 1
+* **2/4**: Submit Part 1
 * **2/25**: Submit Part 2
 * **3/29**: Submit Part 3
 
