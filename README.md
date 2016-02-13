@@ -4,7 +4,7 @@ In Project 1, you will build a substantial real-world database application of yo
 This project is split into three parts:
 
 * [Part 1](./part1.md): come up with a web application and design the database on paper using ER-modeling.
-* Part 2: implement your database by translating your model into a database schema and example data.
+* [Part 2](./part2.md): implement your database by translating your model into a database schema and example data.
 * Part 3: implement an application that accesses and modifies your database.
 
 Pick an application that you will enjoy working with, because you will be working on it for a substantial part of the semester! 
