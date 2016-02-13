@@ -29,7 +29,7 @@ Computing and Databases
 
 Azure Pass
 
-* Get an azure pass code from the google spreadsheet
+* Get an azure pass code from [the google spreadsheet](https://docs.google.com/spreadsheets/d/1nsDzE5HYoWpef5Z6uCKz6xrraoJgg0scI9wJJfTYUeo/edit#gid=0)
 * Go to [https://www.microsoftazurepass.com/](https://www.microsoftazurepass.com/) and fill out the information
 
 
