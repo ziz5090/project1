@@ -83,7 +83,7 @@ Run some queries
 
 Since you created the database on the course database machine, we have access to your database and populated tables, so you are almost done!
 
-Go to [the google docs form](https://docs.google.com/a/columbia.edu/forms/d/11Vcszhud0js18gq46DoMqJ6QHWNnwAQ92dAsk8p96TM/viewform?usp=send_form) and fill it out.  
+Go to [the google docs form](https://docs.google.com/a/columbia.edu/forms/d/1bHF3wnlPJIMMPtOh6GV18uhnQFvV75BGy6W2i3BkTp8/viewform?usp=send_form) and fill it out.  
 You can edit your submission until the due date (be careful, since if you submit afterwards it will be counted as late).  
 We will use the google docs submission timestamp.
 
