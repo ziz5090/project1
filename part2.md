@@ -73,8 +73,8 @@ Populate the tables
 Run some queries
 
 1. Run 3 interesting queries.
-   The three queries, together, should include multi-table joins, aggregation, WHERE clauses (each
-   query does not need to include all of those SQL features).
+   The three queries, together, should include multi-table joins, WHERE clauses, and aggregation (e.g. COUNT, SUM, MIN, etc). Each
+   query does not need to include all of those SQL features.
 
 
 
