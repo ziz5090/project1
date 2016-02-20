@@ -21,17 +21,17 @@ Project mentor
   this is likely the TA that you discussed part 1 with.  He or she will be your main contact for 
   the project, though the rest of  the staff are of course available for questions or concerns.
 
-Computing and Databases
-
-* You will use the Azure VM that you setup in [homework 0](http://github.com/w4111/hw0) to complete this assignment.
-* You are welcome to setup PostgreSQL on your VM, or use the databases that the staff 
-  is running for you.  Instructions at [setuppostgres.md](https://github.com/w4111/project1/blob/master/setuppostgres.md).
-
 Azure Pass
 
 * Get an azure pass code from [the google spreadsheet](https://docs.google.com/spreadsheets/d/1nsDzE5HYoWpef5Z6uCKz6xrraoJgg0scI9wJJfTYUeo/edit#gid=0)
 * Go to [https://www.microsoftazurepass.com/](https://www.microsoftazurepass.com/) and fill out the information
 
+
+Computing and Databases
+
+* We recommend that you create a new Azure VM using the new Azure Pass subscription, and go through the same setup process in [homework 0](http://github.com/w4111/hw0). You can then use this new VM to complete the assignment and all future assignments that require a VM. This is a relatively easy way to switch from the Free Trial subscription to the Azure Pass subscription. There is a [method](http://blogs.msdn.com/b/laurelle/archive/2015/10/01/how-to-move-azure-vm-between-subscriptions.aspx) that allows you to transfer your Free Trial VM from hw0 to the new subscription, but it can be more work than simply creating a new one. Note that when creating your new VM, be sure to choose the Azure Pass subscription instead of the Free Trial one. Otherwise the VM won't be accessible once your Free Trial expires.
+* You are welcome to setup PostgreSQL on your VM, or use the databases that the staff 
+  is running for you.  Instructions at [setuppostgres.md](https://github.com/w4111/project1/blob/master/setuppostgres.md).
 
 # Procedures
 
