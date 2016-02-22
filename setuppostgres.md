@@ -115,12 +115,6 @@ hw0, then you should have an account on these databases.
 
 You can connect to any of them using the following `psql` command:
 
-        psql -h <DBMSURL> –U <YOUR UNI>  -W w4111
-
-Where `DBMSURL` is one of the following
-
-<!--* w4111.cbsgsm1ntx70.us-west-2.rds.amazonaws.com-->
-* w4111db1.cloudapp.net
-
+        psql -h w4111db.eastus.cloudapp.azure.com –U <YOUR UNI>  -W w4111
 
 That's it!  Try it out
