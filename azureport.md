@@ -13,7 +13,7 @@ Azure (and other cloud platforms) have the concept of a "Network security group"
 ![image](./ports/3.png)
 5. The right hand "Settings" pane should show the settings for the network security group that your VM is attached to. Click "Inbound security rules", then click the Add button:
 ![image](./ports/5.png)
-6. In the Name box, write a description like "allow-flask". In "destination port range" type 8008. Leave everything as the default. Click OK.
+6. In the Name box, write a description like "allow-flask". In "destination port range" type 8111. Leave everything as the default. Click OK.
 7. You should see "creating security rule" pop up. In about a minute, it will say "created security rule" and your pane will show the new rule.
 
-You can now connect to your virtual machine at http://(YOURIP):8008/
+You can now connect to your virtual machine at http://(YOURIP):8111/
