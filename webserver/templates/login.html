@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <style>
+    body {
+    background-image: url("http://images.all-free-download.com/images/graphiclarge/green_leafy_wood_background_hd_picture_170050.jpg");
+    background-position: left top;
+    background-size: 1200px 800px;
+    }
+    .error{
+    padding-top: 80px;
+    padding-left: 0;
+    }
+    .container ul {
+    padding: 0;
+    margin: 0;
+    }
+    .container li {
+    display: inline;
+    float: left;
+    }
+    label {
+    display: block;
+    color: black;
+    }
+    .cf:before,
+    .cf:after {
+    content: ""; 
+    display: table;
+    }
+ 
+    .cf:after {
+    clear: both;
+    }
+    .cf {
+    *zoom: 1;
+    }
+    :focus {
+    outline: 0;
+    }
+    .container input:not([type=submit]) {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 
+                0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;
+    }
+    .container input[type=submit] {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: #64c8ef; /* Old browsers */
+    background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    padding: 5px 15px;
+    margin-right: 0;
+    margin-top: 15px;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    }
+    </style>
+    <title>login page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please login</h1>
+      <br>
+      <form action="" method="post">
+        <ul>
+          <li><label for="username">Username</label>
+          <input type="text" placeholder="Username" name="username" value="{{
+            request.form.username }}">
+          <li><label for="password">Password</label>
+          <input type="password" placeholder="Password" name="password" value="{{
+            request.form.password }}">
+          <li>
+          <input class="btn btn-default" type="submit" value="Login"></li>
+        <ul>
+      </form>
+      {% if error %}
+        <p class="error" style="font-size:150%;"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  </body>
+</html>

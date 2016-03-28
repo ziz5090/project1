@@ -1,0 +1,40 @@
+<html>
+  <style>
+    body{ 
+      background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/retina_wood.png");
+      background-position: left top;
+      background-size: 1200px 800px;
+      font-size: 15pt;
+      font-family: arial;
+    }
+  </style>
+
+
+<body>
+  <h1>Book Search</h1>
+
+<form method="POST" action="/search_book">
+
+<p>Name of the Book: <input type="text" name="bookname"> <input type="submit" value="search"></p>
+ <div>
+    {% for n in info %}
+    <div>{{n}}</div>
+    {% endfor %}
+  </div>
+
+
+</form>
+ <form method="POST" action="/add_comment">
+<p></p>
+<p>Add Comment to this Book:</p>
+<p>Wish to Read: <input type = "text" name = "wish"></p>
+<p>Have Read: <input type ="text" name = "read"></p>
+<p>Rate: <input type ="text" name = "Rate"></p>
+<p><input type="submit" value="Add"></p>
+
+</form>
+
+</body>
+
+
+</html>

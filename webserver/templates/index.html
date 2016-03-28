@@ -1,29 +1,71 @@
+<!DOCTYPE html>
 <html>
-  <style>
-    body{ 
-      font-size: 15pt;
-      font-family: arial;
-    }
-  </style>
+<head>
+<style>
+body {
+    background-image: url("http://cdn.skim.gs/images/v1/msi/r5igovj0lea50nipkpxe/why-you-should-read-and-re-read-these-high-school-books-as-an-adult");
+    background-position: left top;
+    background-size: 1200px 800px;
+}
+h1{
+  color:white;
+}
+h2{
+  color:black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+</style>
+</head>
 
 <body>
-  <h1>Some famous Computer Scientists</h1>
-  <div>{{data}}</div>
+<h1 align ="center">Book Recommendation Website</h1>
+<ul>
+  <li><a class="active" href="/login">Go to the Login Page</a></li>
+  <li><a href="/addBook">Add a New Book</a></li>
+  <li><a href="/search">Search</a></li>
+  <li><a href="/recommend">Obtain a Recommendation List</a></li>
+</ul>
 
-  <div>
-    {% for n in data %}
-    <div>{{n}}</div>
-    {% endfor %}
-  </div>
+<h2>Instruction</h2>
+<p style="font-size:150%;">Hi, this is a small book recommendation website.</p>
+<p style="font-size:150%;">You should sign in first, then you can:<br>1.rate the books<br>2.add a book you want<br>3.search the books you want to read<br>4.get some recomendation about the books</p>
+<p style="font-size:150%;">Let's read books and try it!</p>
+<p style="font-size:150%;">Wish you have a good experience.^_^</p>
 
-<p><a href="/another">Go to the other page</a></p>
-
-<form method="POST" action="/add">
-<p>Name of new computer scientist: <input type="text" name="name"> <input type="submit" value="Add"></p>
+</form>
+ <form method = "POST" action = "/logout">
+ <p style = "color: orange;text-align:right;"><input type = "submit" value ="Logout" style ="font-size : 20px; width: 150px; height: 100px;"></p>
 </form>
 
 </body>
-
-
 </html>
+

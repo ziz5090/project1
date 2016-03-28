@@ -1,0 +1,39 @@
+<html>
+  <style>
+    body{ 
+      background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/retina_wood.png");
+      background-position: left top;
+      background-size: 1200px 800px;
+      font-size: 10pt;
+      font-family: arial;
+    }
+  </style>
+
+
+<body>
+  <h1>Book Recommendation List</h1>
+<form method="POST" action="/recommend_book">
+<p>Set preferences: <input type="text" name="name"> <input type="submit" value="set"></p>
+<div>
+  {% for i in info %}
+  <div>{{i}}</div>
+  {% endfor %}
+</div>
+<p>The result is :</p>
+ <div>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+ 
+    {% for n in info2 %}
+    <div>{{n}}</div>
+    {% endfor %}
+  </div>
+
+
+</form>
+
+</body>
+
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+  <style>
+    body{ 
+      font-size: 15pt;
+      font-family: arial;
+    }
+  </style>
+
+
+<body>
+  <h1>Error</h1>
+ <div>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+ 
+</div> 
+
+
+<p><a href="/">Go back to the main page</a></p>
+<p><a href="/search">Add another comment</a></p>
+<p><a href="addBook">Add another book</a></p>
+</body>
+
+
+</html>
